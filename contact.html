@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactus</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+
+        form {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            width: 35%;
+            text-align: center;
+        }
+
+        input, textarea {
+            width: 90%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 2px solid #0c0c0c;
+            border-radius: 5px;
+        }
+        
+        button {
+            background-color: purple;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #570455;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Contact Us</h1>
+        <input type="text" placeholder="Name" required><br><br>
+        <input type="email" placeholder="Email ID" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br><br>         
+        <input type="tel" placeholder="Mobile Number" pattern="[0-9]{10}" required> <br><br>     
+        <textarea name="Message" placeholder="Message" rows="5" cols="18" required></textarea><br><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
