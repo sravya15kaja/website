@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contactus</title>
+    <title>Contact Us</title>
     <style>
+        h1 {
+            text-align: center;
+        }
         body {
             font-family: Arial, sans-serif;
             display: flex;
@@ -18,8 +21,8 @@
             background: #fff;
             padding: 15px;
             border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-            width: 50%;
+            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.2);
+            width: 80%;
             text-align: center;
         }
 
@@ -30,7 +33,7 @@
             border: 2px solid #0c0c0c;
             border-radius: 5px;
         }
-        
+
         button {
             background-color: #4B0082;
             color: white;
@@ -47,14 +50,45 @@
 
         }
 
-    </style>
+
+        select {
+            padding: 10px;
+            margin-left: 4%;
+            border: 2px solid #0a0a0a;
+            border-radius: 4px;
+        } 
+        #Mobile{
+            margin-right: 4%;
+        }
+        .phone-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .country-code {
+            width: 25%;
+            margin-right: 10px;
+        }
+
+     </style>
 </head>
 <body>
     <form action="">
         <h1>Contact Us</h1>
         <input type="text" placeholder="Name" required><br><br>
         <input type="email" placeholder="Email ID" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required><br><br>         
-        <input type="tel" placeholder="Mobile Number" pattern="[0-9]{10}" required> <br><br>     
+        
+        <div class="phone-container">
+            <select class="country-code" required>
+                <option value="+91">+91 (India)</option>
+                <option value="+1">+1 (USA)</option>
+                <option value="+44">+44 (UK)</option>
+                <option value="+61">+61 (Australia)</option>
+                <option value="+81">+81 (Japan)</option>
+                <option value="+49">+49 (Germany)</option>
+            </select>
+            <input type="tel" id="Mobile" placeholder="Mobile Number" pattern="[0-9]{10}" required> 
+        </div><br>        
         <textarea name="Message" placeholder="Message" rows="5" cols="18" required></textarea><br><br>
         <button>Submit</button>
     </form>
