@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upselling and Downselling</title>
+    <link rel="stylesheet" href="up&cross.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- nav section -->
+
+
+
+
+    <!-- email header -->
+    <section id="selling-sec">
+        <div id="upselling">
+            <h1>Upselling and Downselling</h1><br><br>
+                <div id="btn">
+                    <button id="btn-1" onclick="movetocontact()">Try Now</button>
+                    <button id="btn-2" onclick="movetocontact()">Book Us Demo</button>
+                </div>
+        </div>
+        <img src="images/Upselling .png" id="upselling-image" alt="Upselling-image">
+    </section>
+    <!-- section 2 -->
+    <section id="section" >
+        <div id="sec_1" >
+            <p> Pegasos CRM uses AI-powered insights to suggest relevant products,
+                upgrades, or services to customers at the perfect moment. This helps
+                businesses maximize revenue without extra marketing costs.</p>
+        </div>
+        <div id="sec_2">
+            <h2>Benefits</h2>
+            <p><li>Increase revenue with smart product recommendations</li></p>
+            <p><li>Provide personalised offers based on customer behaviour</li></p>
+            <p><li>Boost retention with well-timed upsells</li></p>
+            <p><li>Reduce manual effort with automated cross-selling strategies</li></p>
+        </div>
+        <div id="sec_2">
+            <h2>Key Freature</h2>
+            <p><li>AI-Driven  ecommendations - Suggest upsells based on purchase history</li></p>
+            <p><li>Automated Follow-Ups - Trigger offers when customers show interest </li></p>
+            <p><li> Multi-Channel Support - Send offers via email, SMS, and pop-ups</li></p>
+            <p><li>Performance Tracking - Measure conversion rates for each campaign.</li></p>
+        </div>
+        <button id="btn-3" onclick="movetocontact()">Get Started Now!</button>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Company Info Section -->
+            <div class="footer-company">
+                <img src="image/pegasos-logo.png" alt="Pegasos Logo">
+                <h4>Pegasos Information Technology and Services LLP</h4>
+                <h6>Get every single promotional & business update.</h6>
+                <div class="mailbox">
+                    <form method="POST" action="">
+                        <!-- {% csrf_token %} -->
+                        <input type="email" name="email" placeholder="Mail Address" required>
+                        <button type="submit">➤</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Quick Links Section -->
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <div class="quick-links">
+                    <div class="quick-links-col">
+                        <a href="#">Home</a>
+                        <a href="#">Company</a>
+                        <a href="#">Who We Are</a>
+                        <a href="#">Career</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                    <div class="quick-links-col">
+                        <a href="#">Solution</a>
+                        <a href="#">Industries</a>
+                        <a href="#">Terms & Condition</a>
+                        <a href="#">Privacy policy</a>
+                        <a href="#">Help</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Section -->
+            <div class="footer-contact">
+                <h3>Contacts</h3>
+                <a href="mailto:info@pegasos.in">info@pegasos.in</a>
+                <p>Bangalore, India</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/company/pegasos" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://wa.me/yourwhatsappnumber" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.facebook.com/pegasos" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">© 2024 Copyrights Pegasos</p>
+    </footer>
+    <script>
+        document.getElementById("btn-1")
+        document.getElementById("btn-2")
+        document.getElementById("btn-3")
+        function movetocontact(){
+            window.location.href= "contact.html";
+        }
+
+    </script>
+</body>
+</html>

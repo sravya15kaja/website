@@ -1,0 +1,403 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#fsa-sec{
+    display: flex;
+    gap: 20%;
+    height: 80vh;
+    background-color: #e5ccf8;
+}
+#fsa-sec h1{
+    color: #4b0084;
+    font-size: 50px; 
+    font-family: "Winky Rough", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    
+}
+#btn{
+    display: flex;
+}
+#btn-1{
+    border: none;
+    font-size: large;
+    margin-right: 10px;
+    background-color: #b881e2;
+}
+#btn-1:hover{
+    background-color: #4b0084;
+    color: white;
+}
+#btn-2{
+    border: none;
+    font-size: large;
+    background-color: #4b0084;
+    color: white;
+}
+#btn-2:hover{
+    background-color: #b881e2;
+    color: black;
+}
+#fsa{
+    margin-left: 5%;
+    margin-top: 7%;
+}
+#fsa-image{
+    margin: 5%;
+    width: 30%;
+    height: auto;
+    border-radius: 50%;
+}
+button{
+    padding: 15px;
+    width: 70%;
+    border-radius: 10px;
+}
+/* section2 */
+#section{
+    height: 150vh;
+    background-color: #34015c;
+    color: white;
+}
+#sec_1{
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+    margin: 0 15%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+#sec_2{
+    font-size: 20px;
+    padding: 20px;
+    margin: 0 10%;
+}
+#btn-3{
+    border: none;
+    padding: 15px;
+    margin-left: 40%;
+    width: 20%;
+    background-color: #b881e2;
+    font-size: medium;
+}
+/* footer */
+.footer {
+    width: 96.5%;
+    padding: 60px 20px;
+    background-color: #eceaea;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-company {
+    flex: 1 1 300px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+
+.footer-company img {
+    max-width: 180px;
+    height: auto;
+}
+
+.footer-company h4 {
+    color: #19012b;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.footer-company h6 {
+    color: #333;
+    margin: 20px 0 10px;
+    font-size: 14px;
+}
+
+.mailbox {
+    background-color: #eaceff;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.mailbox form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.mailbox input {
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #4b0082;
+    padding: 8px 5px;
+    font-size: 16px;
+}
+
+.mailbox input::placeholder {
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+}
+
+.mailbox button {
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: none;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailbox button:hover {
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.footer-links {
+    flex: 1 1 300px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.footer-links h3 {
+    color: #19012b;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.quick-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quick-links-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quick-links-col a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.quick-links-col a:hover {
+    color: #b246ff;
+}
+
+.footer-contact {
+    flex: 1 1 250px;
+    margin-bottom: 30px;
+}
+
+.footer-contact h3 {
+    color: #19012b;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-contact a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+    color: #b246ff;
+}
+
+.footer-contact p {
+    margin: 10px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.social-icons i {
+    font-size: 24px;
+}
+
+.fa-linkedin {
+    color: #0266c8;
+}
+
+.fa-whatsapp {
+    color: #25d366;
+}
+
+.fa-facebook {
+    color: #1877f2;
+}
+
+.social-icons i:hover {
+    color: #b450fc;
+}
+
+.copyright {
+    font-weight: bolder;
+    margin-top: 15px;
+    font-size: 14px;
+    margin-left: 40%;
+}
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    
+    .footer-company, .footer-links, .footer-contact {
+        flex: 1 1 100%;
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+    .quick-links {
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+    .copyright{
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 40px 15px;
+    }
+    
+    .footer-company img {
+        max-width: 150px;
+    }
+    
+    .quick-links {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .quick-links-col {
+        margin-bottom: 15px;
+    }
+    .copyright{
+        margin-left: 25%;
+    }
+}
+@media screen and (min-width:776px) and (max-width:956px) {
+    #section{
+        height: 200vh;
+    }
+    
+}
+@media screen and (min-width:668px) and (max-width:780px) {
+    #fsa-sec{
+        flex-direction: column;
+        height: 140vh;
+    }
+    #fsa h1{
+        margin-left: 25%;
+    }
+    #fsa {
+        margin-left: 0%;
+    }
+    #fsa-image{
+        margin: -10% 30%;
+        width: 40%;
+        height: 50vh;
+    }
+
+    #section{
+        height: 220vh;
+    }
+    .footer{
+        width: 94.5%;
+    }
+}
+@media screen and (min-width:476px) and (max-width:668px){
+    #fsa-sec{
+        flex-direction: column;
+        height: 140vh;
+    }
+    #fsa h1{
+        margin-left: 10%;
+    }
+    #fsa {
+        margin-left: 0%;
+    }
+    #fsa-image{
+        margin: -10% 30%;
+        width: 40%;
+        height: 50vh;
+    }
+
+    #section{
+        height: 280vh;
+    }
+    .footer{
+        width: 94%;
+    }
+}
+@media (max-width:476px) {
+    #fsa-sec{
+        flex-direction: column;
+        height: 160vh;
+    }
+    #fsa h1{
+        margin-left: 12%;
+    }
+    #fsa {
+        margin-left: 0%;
+    }
+    #fsa-image{
+        margin: -10% 30%;
+        width: 40%;
+        height: 50vh;
+    }
+    #section{
+        height: 300vh;
+    }
+    .footer{
+        width: 92.5%;
+    }
+}
+@media screen and (min-width:270px) and (max-width:378px) {
+    #section{
+        height: 340vh;
+    }
+    .footer{
+        width: 90%;
+    }
+}

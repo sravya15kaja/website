@@ -1,0 +1,392 @@
+body {
+    margin: 0;
+    padding: 0;
+     
+}
+body h1{
+    font-family: "Special Gothic Condensed One", sans-serif;
+    font-weight: 400;
+    font-style: normal;   
+}
+body h2{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+body p{
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+}
+#section{
+    font-size: 30px;
+    max-width: 1100px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #c68df1;
+    border-radius: 10px;
+}
+#section h1{
+    color:#6306a5;
+}
+#section-one{
+    display: flex;
+    gap: 10%;
+}
+#section-one p{
+    font-size: 30px;
+}
+#section-two{
+    display: flex;
+    gap: 10%;
+}
+#section-two h2{
+    margin-top: 20%;
+}
+span{
+    color:#6306a5;
+}
+#Internship{
+    display: flex;
+    margin-left: 30%;
+    gap: 10%;
+    letter-spacing: 1px;
+}
+#Internship h2{
+    margin-top: 20%;
+}
+#internship-2{
+    margin: 0% 10%;
+}
+#internship-2 p{
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+#internship-2 h1{
+    color:#6306a5;
+    font-size: 30px;
+}
+#internship-2 span{
+    color: black;
+    font-weight: bolder;
+}
+#intern{
+    display: flex;
+}
+#section-2{
+    margin-left: -5%;
+}
+@media screen and (min-width:500px) and (max-width: 600px) {
+    #section-one{
+        display: block;
+    }
+    #section-two{
+        display: block;
+    }
+    #section-two img{
+        margin-left: 15%;
+    }            
+    #Internship{
+        margin-left: 17%;
+    }     
+    #intern{
+        display: block;
+    }
+    #intern img{
+        margin-left: 30%;
+    }
+    
+}
+
+@media screen and (min-width:300px) and (max-width: 500px) {
+    #section p{
+        font-size: 15px;
+    }
+    section h1,h2{
+        font-size: 20px;
+    }
+    #section-2 h1{
+        font-size: 20px;
+    }
+    #section-2 p{
+        font-size: 15px;
+
+    }
+    #section-one{
+        display: block;
+    }
+    #section-one img{
+        margin-left: -35%;
+
+    }
+    #section-two{
+        display: block;
+    }
+    #section-two img{
+        margin-left: -15%;
+    }            
+    #Internship{
+        display: block;
+        margin-left: 10%;
+    }     
+    #intern{
+        display: block;
+    }
+    #intern img{
+        margin-left: 5%;
+    }
+
+}
+
+/* footer */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    width: 100%;
+    padding: 60px 20px;
+    background-color: #eceaea;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-company {
+    flex: 1 1 300px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+}
+
+.footer-company img {
+    max-width: 180px;
+    height: auto;
+}
+
+.footer-company h4 {
+    color: #19012b;
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+.footer-company h6 {
+    color: #333;
+    margin: 20px 0 10px;
+    font-size: 14px;
+}
+
+.mailbox {
+    background-color: #eaceff;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.mailbox form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.mailbox input {
+    flex-grow: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #4b0082;
+    padding: 8px 5px;
+    font-size: 16px;
+}
+
+.mailbox input::placeholder {
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+}
+
+.mailbox button {
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    border: none;
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mailbox button:hover {
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px gray;
+}
+
+.footer-links {
+    flex: 1 1 300px;
+    margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.footer-links h3 {
+    color: #19012b;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.quick-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quick-links-col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quick-links-col a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+.quick-links-col a:hover {
+    color: #b246ff;
+}
+
+.footer-contact {
+    flex: 1 1 250px;
+    margin-bottom: 30px;
+}
+
+.footer-contact h3 {
+    color: #19012b;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.footer-contact a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+.footer-contact a:hover {
+    color: #b246ff;
+}
+
+.footer-contact p {
+    margin: 10px 0;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.social-icons i {
+    font-size: 24px;
+}
+
+.fa-linkedin {
+    color: #0266c8;
+}
+
+.fa-whatsapp {
+    color: #25d366;
+}
+
+.fa-facebook {
+    color: #1877f2;
+}
+
+.social-icons i:hover {
+    color: #b450fc;
+}
+
+.copyright {
+    font-weight: bolder;
+    margin-top: 15px;
+    font-size: 14px;
+    margin-left: 45%;
+}
+
+/* .alert {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+} */
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+    }
+    
+    .footer-company, .footer-links, .footer-contact {
+        flex: 1 1 100%;
+        text-align: center;
+        padding: 0 10px;
+    }
+    
+    .quick-links {
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .social-icons {
+        justify-content: center;
+    }
+    .copyright{
+        margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        padding: 40px 15px;
+    }
+    
+    .footer-company img {
+        max-width: 150px;
+    }
+    
+    .quick-links {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .quick-links-col {
+        margin-bottom: 15px;
+    }
+    .copyright{
+        margin-left: 25%;
+    }
+}
