@@ -37,7 +37,7 @@ body p{
     gap: 5%;
 }
 #section-one p{
-    padding: 5%;
+    /* padding: 5%; */
     font-size: 30px;
 }
 #section-two{
@@ -59,8 +59,10 @@ span{
     gap: 10%;
     letter-spacing: 1px;
 }
-#Internship h2{
-    margin-top: 20%;
+#Internship a{
+    margin-top: 15%;
+    color: black;
+    text-decoration: none;
 }
 #internship-2{
     margin: 0% 10%;
@@ -69,7 +71,10 @@ span{
     font-size: 25px;
     letter-spacing: 1px;
     word-spacing: 2px;
-    padding: 10px;
+    /* padding: 10px; */
+}
+#section-2{
+    display: none;
 }
 #internship-2 h1{
     color:#6306a5;
@@ -81,6 +86,10 @@ span{
 }
 #intern{
     display: flex;
+}
+#intern img{
+    margin-left: -13%;
+    margin-top: 7%;
 }
 #section-2{
     margin-left: -5%;
@@ -148,15 +157,10 @@ span{
 }
 
 /* footer */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+ 
 
 .footer {
-    width: 100%;
+    width: 96%;
     padding: 60px 20px;
     background-color: #eceaea;
 }
